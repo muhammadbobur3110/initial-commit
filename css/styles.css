@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1228px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site-header-top {
+  display: flex;
+  align-items: center;
+  margin-top: 67px;
+  margin-bottom: 145px;
+}
+.currencies {
+  list-style-type: none;
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  margin-left: 121px;
+}
+.currency {
+  margin-right: 40px;
+  width: 35px;
+  font-family: "Nunito sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+.active {
+  width: 53px;
+  font-family: "Nunito sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  color: #212353;
+}
+.link {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 7px 69px 7px 29px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+.link img {
+  margin-left: 10px;
+}
+.link-text {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #212353;
+}
+.site-header {
+  display: flex;
+  align-items: center;
+}
+.intro-title {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 110%;
+}
+.intro-paragraph {
+  width: 380px;
+  font-family: "Nunito sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+  margin-bottom: 70px;
+}
+.button-link {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background: #9C69E2;
+  border-radius: 50px;
+  text-decoration: none;
+  padding: 16px 37px 16px 37px;
+}
+.illustration {
+  width: 100%;
+  object-fit: cover;
+}
+.box {
+  width: 1117px;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  display: flex;
+  margin-top: 100px;
+}
+.illustration-img {
+  margin-right: 70px;
+}
+.paragraph h2 {
+  width: 475px;
+  margin-top: 125px;
+  font-family: "Nunito sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  align-items: center;
+  color: #212353;
+  margin-bottom: 40px;
+}
+.main-paragraph {
+  width: 474px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+}
